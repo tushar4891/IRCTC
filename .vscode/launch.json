@@ -1,0 +1,56 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch PaymentApplication",
+            "request": "launch",
+            "mainClass": "com.payment.payment.PaymentApplication"
+        },
+        {
+            "type": "java",
+            "name": "Launch EurekaServerApplication",
+            "request": "launch",
+            "mainClass": "com.eureka.eurekaserver.EurekaServerApplication"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-TrainDataApplication<train-data>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.train.traindata.TrainDataApplication",
+            "projectName": "train-data",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-TrainReservationApplication<train-reservation>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.train.trainreservation.TrainReservationApplication",
+            "projectName": "train-reservation",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-EurekaServerApplication<eureka-server>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.eureka.eurekaserver.EurekaServerApplication",
+            "projectName": "eureka-server",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-PaymentApplication<payment>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.payment.payment.PaymentApplication",
+            "projectName": "payment",
+            "args": ""
+        }
+    ]
+}
